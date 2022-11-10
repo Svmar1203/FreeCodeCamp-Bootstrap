@@ -9,6 +9,12 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
     <title>Document</title>
   </head>
   <body>
@@ -39,16 +45,20 @@
     </style>
 
     <div class="container-fluid">
-      <h2 class="red-text">CatPhotoApp</h2>
+      <div class="row">
+        <div class="col-xs-8">
+          <h2 class="red-text">CatPhotoApp</h2>
+        </div>
 
-      <p>Click here for <a href="#">cat photos</a>.</p>
-
-      <a href="#"
-        ><img
-          class="smaller-image thick-green-border"
-          src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-          alt="A cute orange cat lying on its back."
-      /></a>
+        <div class="col-xs-4">
+          <a href="#"
+            ><img
+              class="smaller-image thick-green-border"
+              src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
+              alt="A cute orange cat lying on its back."
+          /></a>
+        </div>
+      </div>
 
       <img
         src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg"
@@ -57,7 +67,9 @@
       />
       <div class="row">
         <div class="col-xs-4">
-          <button class="btn btn-primary btn-block">Like</button>
+          <button class="btn btn-primary btn-block">
+            <i class="fas fa-thumbs-up"></i> Like
+          </button>
         </div>
         <div class="col-xs-4">
           <button class="btn btn-block btn-info">Info</button>
