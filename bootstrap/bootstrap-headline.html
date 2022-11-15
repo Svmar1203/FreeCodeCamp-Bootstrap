@@ -18,10 +18,15 @@
     <script>
       $(document).ready(function () {
         $("button").addClass("animated bounce");
+        $("button").removeClass("btn-default");
         $(".well").addClass("animated shake");
         $("#target3").addClass("animated fadeOut");
         $(".btn").addClass("shake");
         $("#target1").addClass("btn-primary");
+        $("#target1").css("color", "red");
+        $("#target1").prop("disabled", true);
+        $("#target4").html("<em>#target4</em>");
+        $("#target4").remove();
       });
     </script>
     <link rel="stylesheet" href="headline-style.css" />
