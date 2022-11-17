@@ -27,6 +27,9 @@
         $("#target1").prop("disabled", true);
         $("#target4").html("<em>#target4</em>");
         $("#target4").remove();
+        $("#target3").appendTo("right-well");
+        $("#target1").parent().css("background-color", "red");
+        $("#right-well").children().css("color", "orange");
       });
     </script>
     <link rel="stylesheet" href="headline-style.css" />
