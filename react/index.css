@@ -1,0 +1,9 @@
+body {
+  background-color: rgb(66, 91, 113);
+}
+
+ul {
+  font-size: x-large;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
