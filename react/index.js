@@ -61,11 +61,13 @@ ReactDOM.render(
 
 const navbar = (
   <div className="navb">
-    <h1>Menu</h1>
+    <h1>My awesome website in React</h1>
+    <h2>Reasons I love React</h2>
     <ol>
-      <li>Bananas</li>
-      <li>Strawberies</li>
-      <li>Coconut</li>
+      <li>It's composable</li>
+      <li>It's declarative</li>
+      <li>It's hireable skill</li>
+      <li>It's actively maintained by skilled people</li>
     </ol>
   </div>
 );
