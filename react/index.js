@@ -43,5 +43,30 @@ const page = (
     <p>This is paragraph</p>
   </div>
 );
+console.log(page);
 
 ReactDOM.render(page, document.getElementById("two"));
+
+ReactDOM.render(
+  <nav>
+    <h1>Website</h1>
+    <ul>
+      <li>Pricing</li>
+      <li>About</li>
+      <li>Contact</li>
+    </ul>
+  </nav>,
+  document.getElementById("three")
+);
+
+const navbar = (
+  <div className="navb">
+    <h1>Menu</h1>
+    <ol>
+      <li>Bananas</li>
+      <li>Strawberies</li>
+      <li>Coconut</li>
+    </ol>
+  </div>
+);
+ReactDOM.render(navbar, document.getElementById("three"));
