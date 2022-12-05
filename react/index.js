@@ -85,9 +85,9 @@ ReactDOM.render(navbar, document.getElementById("three"));
 
 ///////////////////////////////////////
 
-const funfacts = (
+/*const funfacts = (
   <nav>
-    <img src="https://blog.logrocket.com/wp-content/uploads/2021/03/React_grid_components.png"></img>
+    <img src="https://blog.logrocket.com/wp-content/uploads/2021/03/React_grid_components.png" />
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first relesed in 2013</li>
@@ -100,3 +100,53 @@ const funfacts = (
 );
 
 ReactDOM.render(funfacts, document.getElementById("root"));
+*/
+
+////////////////////////////////////
+
+function TemporaryName() {
+  return (
+    <nav>
+      <img src="https://blog.logrocket.com/wp-content/uploads/2021/03/React_grid_components.png" />
+      <h1>Fun facts about React</h1>
+      <ul>
+        <li>Was first relesed in 2013</li>
+        <li>Was originally created by Jordan Walke</li>
+        <li>Has well over 100K stars on Github</li>
+        <li>Is maintained by Facebook</li>
+        <li>Powers thousands of enterprise apps, including mobile apps</li>
+      </ul>
+    </nav>
+  );
+}
+
+ReactDOM.render(<TemporaryName />, document.getElementById("root"));
+
+///////////////////////////////////
+
+function CustomPage() {
+  return (
+    <div>
+      <img
+        className="babel"
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1280px-Babel_Logo.svg.png"
+      />
+      <h1 className="babel1">What is Babel</h1>
+      <ul>
+        <li>It provides an easy, convenient way to prototype with Babel</li>
+        <li>
+          Using @babel/standalone, you can get started using Babel with just a
+          simple script tag in your HTML
+        </li>
+        <li>
+          If you're using Babel in production, you should normally not use
+          @babel/standalone. Instead, you should use a build system running on
+          Node.js, such as Webpack, Rollup, or Parcel, to transpile your JS
+          ahead of time.
+        </li>
+      </ul>
+    </div>
+  );
+}
+
+ReactDOM.render(<CustomPage />, document.getElementById("heade"));

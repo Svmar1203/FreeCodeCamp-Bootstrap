@@ -2,7 +2,8 @@ body {
   background-color: rgb(174, 201, 225);
 }
 
-nav {
+#root,
+#heade {
   margin-left: 50px;
   margin-top: 20px;
 }
@@ -16,8 +17,13 @@ ul {
 h1 {
   font-size: 60px;
   font-family: monospace;
+  margin-top: 15px;
 }
 
 img {
   width: 200px;
+}
+
+.babel {
+  margin-top: 40px;
 }
