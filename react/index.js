@@ -106,7 +106,7 @@ ReactDOM.render(funfacts, document.getElementById("root"));
 
 function TemporaryName() {
   return (
-    <nav>
+    <div>
       <img src="https://blog.logrocket.com/wp-content/uploads/2021/03/React_grid_components.png" />
       <h1>Fun facts about React</h1>
       <ul>
@@ -116,7 +116,7 @@ function TemporaryName() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
-    </nav>
+    </div>
   );
 }
 
@@ -132,15 +132,19 @@ function Header() {
           className="babel"
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1280px-Babel_Logo.svg.png"
         />
+        <ul className="nav-item">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
 }
 
-function CustomPage() {
+function MainContent() {
   return (
     <div>
-      <Header />
       <h1 className="babel1">What is Babel</h1>
       <ul>
         <li>It provides an easy, convenient way to prototype with Babel</li>
@@ -155,9 +159,24 @@ function CustomPage() {
           ahead of time.
         </li>
       </ul>
-      <footer>
-        <p>@ 2022 Svetlana's development. All rights reserved.</p>
-      </footer>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer>
+      <p>@ 2022 Svetlana's development. All rights reserved.</p>
+    </footer>
+  );
+}
+
+function CustomPage() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
