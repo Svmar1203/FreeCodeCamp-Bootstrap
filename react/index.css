@@ -3,7 +3,8 @@ body {
 }
 
 #root,
-#heade {
+#heade,
+#two {
   margin-left: 50px;
   margin-top: 20px;
 }

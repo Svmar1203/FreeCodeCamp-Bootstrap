@@ -124,13 +124,23 @@ ReactDOM.render(<TemporaryName />, document.getElementById("root"));
 
 ///////////////////////////////////
 
+function Header() {
+  return (
+    <header>
+      <nav>
+        <img
+          className="babel"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1280px-Babel_Logo.svg.png"
+        />
+      </nav>
+    </header>
+  );
+}
+
 function CustomPage() {
   return (
     <div>
-      <img
-        className="babel"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1280px-Babel_Logo.svg.png"
-      />
+      <Header />
       <h1 className="babel1">What is Babel</h1>
       <ul>
         <li>It provides an easy, convenient way to prototype with Babel</li>
@@ -145,8 +155,11 @@ function CustomPage() {
           ahead of time.
         </li>
       </ul>
+      <footer>
+        <p>@ 2022 Svetlana's development. All rights reserved.</p>
+      </footer>
     </div>
   );
 }
 
-ReactDOM.render(<CustomPage />, document.getElementById("heade"));
+ReactDOM.render(<CustomPage />, document.getElementById("two"));
