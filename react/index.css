@@ -1,9 +1,14 @@
 body {
-  background-color: rgb(66, 91, 113);
+  background-color: rgb(174, 201, 225);
 }
 
 ul {
   font-size: x-large;
   font-weight: 600;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: monospace;
 }

@@ -14,7 +14,7 @@
 // document.getElementById("root")
 //);
 
-function Content() {
+/*function Content() {
   return (
     <div className="all">
       <h1>My awesome website in React</h1>
@@ -30,8 +30,11 @@ function Content() {
 }
 
 ReactDOM.render(<Content />, document.getElementById("root"));
+*/
 
-const h4 = document.createElement("h1");
+/////////////////////////
+
+/*const h4 = document.createElement("h1");
 h4.textContent = "Ths is an Imperative way to program";
 h4.className = "header";
 document.getElementById("heade").append(h4);
@@ -46,8 +49,11 @@ const page = (
 console.log(page);
 
 ReactDOM.render(page, document.getElementById("two"));
+*/
 
-ReactDOM.render(
+/////////////////////////////////////
+
+/*ReactDOM.render(
   <nav>
     <h1>Website</h1>
     <ul>
@@ -58,8 +64,11 @@ ReactDOM.render(
   </nav>,
   document.getElementById("three")
 );
+*/
 
-const navbar = (
+////////////////////////////////////
+
+/*const navbar = (
   <div className="navb">
     <h1>My awesome website in React</h1>
     <h2>Reasons I love React</h2>
@@ -72,3 +81,21 @@ const navbar = (
   </div>
 );
 ReactDOM.render(navbar, document.getElementById("three"));
+*/
+
+///////////////////////////////////////
+
+const funfacts = (
+  <nav>
+    <h1>Fun facts about React</h1>
+    <ul>
+      <li>Was first relesed in 2013</li>
+      <li>Was originally created by Jordan Walke</li>
+      <li>Has well over 100K stars on Github</li>
+      <li>Is maintained by Facebook</li>
+      <li>Powers thousands of enterprise apps, including mobile apps</li>
+    </ul>
+  </nav>
+);
+
+ReactDOM.render(funfacts, document.getElementById("root"));
