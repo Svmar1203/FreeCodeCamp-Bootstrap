@@ -2,6 +2,11 @@ body {
   background-color: rgb(174, 201, 225);
 }
 
+nav {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
 ul {
   font-size: x-large;
   font-weight: 600;
@@ -11,4 +16,8 @@ ul {
 h1 {
   font-size: 60px;
   font-family: monospace;
+}
+
+img {
+  width: 200px;
 }

@@ -87,6 +87,7 @@ ReactDOM.render(navbar, document.getElementById("three"));
 
 const funfacts = (
   <nav>
+    <img src="https://blog.logrocket.com/wp-content/uploads/2021/03/React_grid_components.png"></img>
     <h1>Fun facts about React</h1>
     <ul>
       <li>Was first relesed in 2013</li>
