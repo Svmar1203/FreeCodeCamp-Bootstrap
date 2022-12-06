@@ -120,7 +120,7 @@ function TemporaryName() {
   );
 }
 
-ReactDOM.render(<TemporaryName />, document.getElementById("root"));
+ReactDOM.createRoot(document.getElementById("root")).render(<TemporaryName />);
 
 ///////////////////////////////////
 
@@ -181,4 +181,7 @@ function CustomPage() {
   );
 }
 
-ReactDOM.render(<CustomPage />, document.getElementById("two"));
+ReactDOM.createRoot(document.getElementById("two")).render(<CustomPage />);
+
+//const root = ReactDOM.createRoot(document.getElementById("root"));
+//root.render(<CustomPage />)
